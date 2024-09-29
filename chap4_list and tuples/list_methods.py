@@ -49,3 +49,9 @@ print(squares)
 #check if an element exists in a list
 if 1 in list_1:
     print("1 is in the list")
+
+
+#sum() for adding list int values only not string values
+my_list : list = [9,8,7,6,5]
+sum1 = sum(my_list)
+print(sum1)
