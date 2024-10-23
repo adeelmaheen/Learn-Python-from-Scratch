@@ -1,4 +1,4 @@
-# A span comment is definedas a text containing following keywords.
+# A span comment is defined as a text containing following keywords.
 # write a program to define these spams.
 # "make a money now " , "buy now" , "click this" , " subscribe this"
 

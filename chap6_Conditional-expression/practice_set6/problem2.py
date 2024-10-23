@@ -1,4 +1,4 @@
-#  write a program to find out wheather a sstudents has passedor failed if it required as total 40% in atleast 33% in each subject to pass . assume 3 students and take marks as an input from the user.
+#  write a program to find out wheather a sstudents has passed or failed if it required as total 40% in atleast 33% in each subject to pass . assume 3 students and take marks as an input from the user.
 
 marks1 = int(input("Enter marks 1: "))
 marks2 = int(input("Enter marks 1: "))
