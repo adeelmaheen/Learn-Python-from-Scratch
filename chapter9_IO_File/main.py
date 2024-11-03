@@ -18,11 +18,25 @@
 # Opening a file:
 # python has an open() function for opening files. It takes 2 parameters:  filename & made.
 
-# open("file    qname" , "mode of opening(read mode)")
-# open(" this.txt" , "v")
+# open("filename" , "mode of opening(read mode)")
+# open(" this.txt" , "r")
 
+st = " hey"
 
-f = open("file.txt")
-data = f.read()
-print(data)
+f = open("myfile.txt","w")
+f.write(st)
 f.close()
+
+# Basic Steps in File I/O
+# Open the File: Use the open() function.
+# Read or Write: Use methods like read(), readline(), write().
+# Close the File: Use close() to release the file.
+
+
+
+# Mode	Description
+# 'r'	Read (default mode)
+# 'w'	Write (overwrites the file)
+# 'a'	Append (adds to the end of the file)
+# 'r+'	Read and write
+
